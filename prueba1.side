@@ -1,0 +1,349 @@
+{
+  "id": "f9ec64a8-1601-4e3a-8b18-15888f82e40d",
+  "version": "2.0",
+  "name": "prueba1",
+  "url": "https://corona.co",
+  "tests": [{
+    "id": "5f0c5ca0-dddd-4c33-a796-c2e26539e2d8",
+    "name": "agragar carrito y registrarse al pagar",
+    "commands": [{
+      "id": "d1efd874-de56-46f8-a26b-abbb546b554c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d04094e2-3542-4273-aa27-cc5fdd6e48c6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1252x713",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70970637-5fcd-4044-92fb-b4deadffbdd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > a",
+      "targets": [
+        ["css=.active > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Productos')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/productos/c/categories')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25a47939-7439-426c-9af5-f2d2c8388f64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cms-grid-item:nth-child(4) .coc-card-title",
+      "targets": [
+        ["css=.cms-grid-item:nth-child(4) .coc-card-title", "css:finder"],
+        ["xpath=//div[4]/div/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SANITARIOS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc422350-8eb6-45a2-b3b5-d8a020979d06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cms-grid-item:nth-child(1) .coc-card-title",
+      "targets": [
+        ["css=.cms-grid-item:nth-child(1) .coc-card-title", "css:finder"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SANITARIOS INDIVIDUALES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5f5e70f-7bc3-4cf0-bfb6-8e9f78ec0c65",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-responsive-image",
+      "targets": [
+        ["css=.js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='Nueva Colección Corona']", "xpath:img"],
+        ["xpath=//div[4]/div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e0eb9df-8e91-4d90-ac8a-833ccba3f1a0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-responsive-image",
+      "targets": [
+        ["css=.js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='Nueva Colección Corona']", "xpath:img"],
+        ["xpath=//div[4]/div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c27e6f45-deeb-4aff-bbea-e084c6f700c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) img",
+      "targets": [
+        ["css=.product-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Sanitario Nyren']", "xpath:img"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65ad4611-917c-4114-9602-1a8f1defd748",
+      "comment": "",
+      "command": "click",
+      "target": "css=.coc-comparator-compare-product--span",
+      "targets": [
+        ["css=.coc-comparator-compare-product--span", "css:finder"],
+        ["xpath=//div/div/div/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42cd2f30-fd4b-4df9-a902-0ba51bc5cbd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=addToCartButton",
+      "targets": [
+        ["id=addToCartButton", "id"],
+        ["css=#addToCartButton", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm']/button", "xpath:idRelative"],
+        ["xpath=//form[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d7dd36b-a0f4-47d5-941d-821c4f2c4fa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-cart",
+      "targets": [
+        ["css=.icon-cart", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a853f326-f93c-4d54-ba7c-c5e2b2c4a3f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-close-mini-cart > .icon",
+      "targets": [
+        ["css=.js-close-mini-cart > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "231c3f20-3e0f-45c6-86b4-04cb74629aef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mini-cart-checkout-button",
+      "targets": [
+        ["css=.mini-cart-checkout-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Ir al carrito')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/cart')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62cba76a-85e4-4344-815c-82db5c86f6fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bddf138-0fe8-464e-a0a5-b6c21014cd9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.firstName",
+      "targets": [
+        ["id=register.firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#register\\.firstName", "css:finder"],
+        ["xpath=//input[@id='register.firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66977f61-784f-4698-a967-7a91ff4db905",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.firstName",
+      "targets": [
+        ["id=register.firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#register\\.firstName", "css:finder"],
+        ["xpath=//input[@id='register.firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "pepito"
+    }, {
+      "id": "ae49b7b4-2d7d-4485-b931-1e9de2e844ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.lastName",
+      "targets": [
+        ["id=register.lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#register\\.lastName", "css:finder"],
+        ["xpath=//input[@id='register.lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "perez"
+    }, {
+      "id": "197a2736-64f5-4227-8ef3-0ea4a3f63c04",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.email",
+      "targets": [
+        ["id=register.email", "id"],
+        ["name=email", "name"],
+        ["css=#register\\.email", "css:finder"],
+        ["xpath=//input[@id='register.email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/form/div[3]/input", "xpath:position"]
+      ],
+      "value": "pueba4@prueba.com"
+    }, {
+      "id": "016345e5-e1dc-40b6-99d9-04a89f9d4757",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pwd", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Di12345678"
+    }, {
+      "id": "583e434d-b63e-419a-be9c-3aa36fee3205",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.checkPwd",
+      "targets": [
+        ["id=register.checkPwd", "id"],
+        ["name=checkPwd", "name"],
+        ["css=#register\\.checkPwd", "css:finder"],
+        ["xpath=//input[@id='register.checkPwd']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24cce8f2-0f63-4380-9cde-913deea1b764",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.checkPwd",
+      "targets": [
+        ["id=register.checkPwd", "id"],
+        ["name=checkPwd", "name"],
+        ["css=#register\\.checkPwd", "css:finder"],
+        ["xpath=//input[@id='register.checkPwd']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Di12345678"
+    }, {
+      "id": "57f85736-0427-4fd5-951d-5ce030a19974",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control__indicator:nth-child(3)",
+      "targets": [
+        ["css=.control__indicator:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='registerForm']/div[6]/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6070477-fd9e-49e6-8a77-9a44c6b77adc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control__indicator:nth-child(2)",
+      "targets": [
+        ["css=.control__indicator:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='registerForm']/div[7]/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c476bc4-7125-4208-935e-7ccc573a97f3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "4776d8bc-264c-466c-b868-3c4300df7859",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f29dfab-bb5b-4366-896b-edb1602a1631",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "40240f05-5f46-4235-a9f6-09d889f41102",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[9]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrarse y pagar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94f1f0a5-c70e-4dba-83b3-a2c23ab8c98a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=g-recaptcha_incorrect",
+      "targets": [
+        ["id=g-recaptcha_incorrect", "id"],
+        ["css=#g-recaptcha_incorrect", "css:finder"],
+        ["xpath=//div[@id='g-recaptcha_incorrect']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[8]/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "568ce5db-9416-4a49-94d0-b2201f6b6f3e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.icon-cart",
+      "targets": [
+        ["css=.icon-cart", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f905305d-8d60-460f-954a-31203e0fc687",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5f0c5ca0-dddd-4c33-a796-c2e26539e2d8"]
+  }],
+  "urls": ["https://corona.co/"],
+  "plugins": []
+}
