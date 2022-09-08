@@ -1,0 +1,236 @@
+{
+  "id": "39960f2e-da9a-4000-b48a-70c88f0eb6ef",
+  "version": "2.0",
+  "name": "Corona",
+  "url": "https://corona.co",
+  "tests": [{
+    "id": "d343eacd-2392-413f-93e3-ddb993ffff20",
+    "name": "Corona registro",
+    "commands": [{
+      "id": "9c2138f0-93d5-4691-81ca-d1bbb67c9167",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f921835-cfd4-4e9f-aa67-978fea31ca32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6fe9c6d-6642-47e2-800a-db03d9b3bb48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.coc-account-highlighted",
+      "targets": [
+        ["css=.coc-account-highlighted", "css:finder"],
+        ["xpath=//a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ingresa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a91b512-a6c1-4052-83bf-abe13e9d818f",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.firstName",
+      "targets": [
+        ["id=register.firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#register\\.firstName", "css:finder"],
+        ["xpath=//input[@id='register.firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e837158-ae7d-4b14-b0dd-8db70fccac13",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.firstName",
+      "targets": [
+        ["id=register.firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#register\\.firstName", "css:finder"],
+        ["xpath=//input[@id='register.firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "sebastian"
+    }, {
+      "id": "e6f9b88e-02fc-44ca-a4c7-22295369b456",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.lastName",
+      "targets": [
+        ["id=register.lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#register\\.lastName", "css:finder"],
+        ["xpath=//input[@id='register.lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "vergara"
+    }, {
+      "id": "1ed0cf14-0218-4def-9881-049b61a668c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.email",
+      "targets": [
+        ["id=register.email", "id"],
+        ["name=email", "name"],
+        ["css=#register\\.email", "css:finder"],
+        ["xpath=//input[@id='register.email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33160613-5434-4e64-8061-1812ad268f95",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.email",
+      "targets": [
+        ["id=register.email", "id"],
+        ["name=email", "name"],
+        ["css=#register\\.email", "css:finder"],
+        ["xpath=//input[@id='register.email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/form/div[3]/input", "xpath:position"]
+      ],
+      "value": "sebastian.mosco16@gmail.com"
+    }, {
+      "id": "ca1c4de0-c0b7-49ed-abf0-838548f03986",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pwd", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6141ca29-147b-4156-a4ca-b5a086a5110a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pwd", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Diosymadre1234"
+    }, {
+      "id": "df7c521e-b962-4165-964c-9ea42ffd581d",
+      "comment": "",
+      "command": "click",
+      "target": "id=register.checkPwd",
+      "targets": [
+        ["id=register.checkPwd", "id"],
+        ["name=checkPwd", "name"],
+        ["css=#register\\.checkPwd", "css:finder"],
+        ["xpath=//input[@id='register.checkPwd']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5cd2739-16fe-4424-8485-df69b2eb3c76",
+      "comment": "",
+      "command": "type",
+      "target": "id=register.checkPwd",
+      "targets": [
+        ["id=register.checkPwd", "id"],
+        ["name=checkPwd", "name"],
+        ["css=#register\\.checkPwd", "css:finder"],
+        ["xpath=//input[@id='register.checkPwd']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Diosymadre1234"
+    }, {
+      "id": "cea163b9-a17b-4c56-9677-b70cc3216afb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control__indicator:nth-child(3)",
+      "targets": [
+        ["css=.control__indicator:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='registerForm']/div[6]/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dd710b0-98b3-443b-afc8-85aad3d09caa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control__indicator:nth-child(2)",
+      "targets": [
+        ["css=.control__indicator:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='registerForm']/div[7]/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa9f9cb4-5ae1-40cd-a091-c629548b324f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3abe58-2117-4121-ae50-a39110a62d4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6c288a8-cb7d-481c-a484-bd46c3606cc5",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "e794ce1a-5803-4e66-a8d7-078770345d00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[9]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0217727c-ff98-456a-95dc-addf34275efa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d343eacd-2392-413f-93e3-ddb993ffff20"]
+  }],
+  "urls": ["https://corona.co/"],
+  "plugins": []
+}
